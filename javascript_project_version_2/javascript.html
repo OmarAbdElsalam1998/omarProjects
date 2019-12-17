@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	body{
+		background:#14869e;
+		text-align: center;
+		margin:20px auto;
+	}
+		.container{
+			margin: 0px auto;
+			text-align: center;
+			background-color:#06212e;
+			width:920px;
+			height: 640px;
+			padding: 10px;
+			border-radius: 20px;
+		}
+		.btn{
+			margin: 5px;
+			color:white;
+			width:40px;
+			background-color:#03a9f4;
+			border:none;
+			padding: 10px;
+		}
+
+		ul {
+			list-style: none;
+		}
+		ul li{
+			display: inline-block;
+		
+		}
+		#div{
+			text-align: center;
+		}
+		#img{
+			text-align: center;
+		}
+		img{
+			width:800px;
+			height: 300px;
+		}
+		#h3{
+			font-size: 40px;
+			color:white;
+			font-family: sans-serif;
+		}
+		#showdatabase,#hidedatabase{
+			margin: 5px;
+			color:white;
+			width:300px;
+			background-color:#f44336;
+			border:none;
+			outline: none;
+			padding: 10px;
+			text-align:center;
+		}
+		#hidedatabase:hover{
+background:#ff5722;
+		}
+		#showdatabase:hover{
+background:#ff5722;
+		}
+		table{
+
+			border: 1px solid #ffffff;
+		    display: none;
+			font-family: sans-serif;
+			font-style: 29px;
+			margin-top: 20px;
+			width: 940px;
+			margin:20px auto;
+			background: #06212e;
+			color: #FFF;
+		
+		}
+		.database{
+				margin: 0px auto;
+			text-align: center;
+			margin-top: 30px;
+		}
+		td{
+			width:320px;
+
+		}
+
+	
+	</style>
+	<title></title>
+</head>
+<body id="b">
+	<div class="container">
+		<h1 style="color:#FFF;font-size: 35px;">Learn English Letters</h1>
+
+ <lable style="color:#FFF; position: relative;left:-90px;font-family:sans-serif;">Number of letters</lable><br>
+ <input type="number" min="1" max="26" style="width:200px;height: 33px;border:none" id="num">
+<input type="submit" id="submit" value="Generate" style="width: 100px;padding: 10px;color:white;background-color:#f44336;border:none; "><br>
+<div id="div"></div><br clear="both">
+<div id="img"></div>
+<h3 id="h3"></h3>
+</div>
+
+<div class="database">
+<input type="submit" id="showdatabase" value="show database">
+<input type="submit" id="hidedatabase" value="Hide database">
+<table cellspacing="0" border cellpadding="10" >
+</table>
+</div>
+<script src="jquery3.2.1.min.js"></script>
+<script src="javascript.js"></script>
+
+</body>
+</html>
